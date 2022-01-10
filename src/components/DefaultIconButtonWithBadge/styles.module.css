@@ -1,0 +1,29 @@
+.default_icon_button_with_badge {
+	position: relative;
+}
+
+.info  {
+	position: absolute;
+	font-size: 12px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	padding: 4px;
+	border-radius: 4px;
+	top: 0;
+	right: 0;
+	transform: translate(40%, -40%);
+}
+
+.small_text.default_icon_button_with_badge .info {
+	font-size: 7px;
+	padding: 2px 3px;
+}
+.medium_text.default_icon_button_with_badge .info {
+	font-size: 10px;
+	padding: 4px;
+}
+.big_text.default_icon_button_with_badge .info {
+	font-size: 13px;
+	padding: 6px;
+}
